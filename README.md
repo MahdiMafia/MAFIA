@@ -1,4 +1,20 @@
-# [TeleDiamond](https://telegram.me/antispamandhack)
+# [jiji](https://telegram.me/titanantilink1)
+# Installation
+
+```sh
+# Install dependencies.
+# Tested on Ubuntu 14.04. For other OSs, check out https://github.com/yagop/telegram-bot/wiki/Installation
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
+
+# Let's install the bot.
+cd $HOME
+git clone https://github.com/mohammadrezajijitg/jijitg.git -b supergroups
+cd jijitg
+chmod +x launch.sh
+./launch.sh install
+./launch.sh # Enter a phone number & confirmation code.
+
+////////////////////////////////////////////////////////////////////////
 
 l antispam system with custom sensitivity for each group**
 * **Multiple realms (admin groups)**
@@ -21,14 +37,14 @@ l antispam system with custom sensitivity for each group**
 * * *
 
 ## Commands
-TeleDiamond has several commands that are only usable at certain ranks.
+jiji has several commands that are only usable at certain ranks.
 
 
 ## General Commands
 | Command | Description |
 |:--------|:------------|
 | [#!/]id | Returns group/SuperGroup ID or user id in pm. |
-| [#!/]telediamond | Returns bot information. |
+| [#!/] | Returns bot information. |
 
 
 ## Private Message Commands
@@ -231,8 +247,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/Mohammadrezar/telediamond.git -b supergroups
-cd telediamond
+git clone https://github.com/mohammadrezajijitg/jijitg.git -b supergroups
+cd jijitg
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -240,8 +256,7 @@ chmod +x launch.sh
 ### One command
 To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
 ```sh
-#https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/Mohammadrezar/telediamond.git -b supergroups && cd telediamond && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+
 ```
 
 * * *
@@ -253,10 +268,10 @@ After you run the bot for first time, send it `!id`. Get your ID and stop the bo
 Open ./data/config.lua and add your ID to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    110626080,
-    103649648,
-    111020322,
-    0,
+    267785153
+    
+    
+    
     YourID
   }
 ```
