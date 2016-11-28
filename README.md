@@ -126,7 +126,7 @@ screen ./launch.sh
 
 # اگه در هر صورت در نصب اتولانچ با روش 1 به مشکل خوردین راه دوم رو برین
 
-# 》[Mohammad](http://telegram.me/Mohammadrrezajiji) سوالی یا مشکلی بود در خدمتم
+# 》[Mohammad](http://telegram.me/Mohammadrezajiji) سوالی یا مشکلی بود در خدمتم
 
 # توضیحات بیشتر در کانال ما
 
