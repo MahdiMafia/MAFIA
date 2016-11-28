@@ -103,7 +103,7 @@ if msg.to.type == 'channel' and is_momod(msg) then
 ✔️》بازکردن آهنگ
 ➖➖➖➖➖➖➖
 ➰ ʝօìղ մʂ ìժ çհ :
-➰ @antispamandhack
+➰ @titanantilink1
 ➖➖➖➖➖➖➖ ]]
 end
 end
