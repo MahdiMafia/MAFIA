@@ -99,7 +99,7 @@ screen ./pika
 
 # اگه رباتتون اف شد برین تو ترمینال و این دستوراتو بزنین
 ```
-cd td
+cd jijitg
 killall screen
 killall telegram-cli
 sudo killall
@@ -110,14 +110,14 @@ screen ./pika
 # 》2)
 # تو ترمینال این دستورات رو وارد کنید
 ```
-cd td
+cd jijitg
 
 screen ./launch.sh
 ```
 
 # و اگه ربات اف شد
 ```
-cd td
+cd jijitg
 
 killall screen
 
