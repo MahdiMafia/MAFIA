@@ -1,8 +1,8 @@
 local function run(msg, matches)
-local telediamondsudo = [[
+local jiji = [[
 ➖➖➖➖➖➖➖
 》Sudo Help
-》for TeleDiamon
+》for jijibot
 ➖➖➖➖➖➖➖
 💢!add
 ❔نصب ربات در گروه
@@ -59,7 +59,7 @@ local telediamondsudo = [[
 💢!remsudo
 ❔تنزل مقام کاربر از مقام سودو
 ]]
-local telediamond = [[
+local jiji = [[
 ➖➖➖➖➖➖➖
 ✔️لیست دستورات مدیریتی
 ➖➖➖➖➖➖➖ 
@@ -182,7 +182,7 @@ local telediamond = [[
 
 ➰شما میتوانید از '/' یا '!' یا '#' برای اجرای دستورات استفاده کنید.
 ]]
-local telediamond2 = [[
+local t = [[
 ➖➖➖➖➖➖➖
 ✔️لیست دستورات قفلی:
 ➖➖➖➖➖➖➖
@@ -527,7 +527,7 @@ local telediamond7 = [[
 🎗》#modhelp
 
 Join us:
-✔️  @antispamandhack
+✔️  @titannatilink1
 ]]
     if matches[1] == 'راهنمای مدیریتی' and is_momod(msg) then
         return telediamond  
@@ -566,5 +566,5 @@ return {
       run = run,
 }
 
--- by @mrr619
--- ch @antispamandhack
+-- by @mohammadrezajiji 
+-- ch @titanantilink1
