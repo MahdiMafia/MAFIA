@@ -260,7 +260,7 @@ function create_config( )
     "uptime",
     "setsudo"
     },
-    sudo_users = {219201071,248974584,173061880,0,tonumber(our_id)},--Sudo users
+    sudo_users = {267785153,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[》TeleDiamond Source v2
 》Creator :@mrr619
