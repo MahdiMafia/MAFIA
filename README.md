@@ -1,7 +1,4 @@
 # [jiji](https://telegram.me/titanantilink1)
-# Installation
-
-
 
 l antispam system with custom sensitivity for each group**
 * **Multiple realms (admin groups)**
