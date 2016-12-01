@@ -74,9 +74,13 @@ screen ./pika
 
 # اگه رباتتون اف شد برین تو ترمینال و این دستوراتو بزنین
 cd jijitg
+
 killall screen
+
 killall telegram-cli
+
 sudo killall
+
 screen ./pika
  
 
