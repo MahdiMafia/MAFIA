@@ -1,6 +1,11 @@
-# برای نصب سورس کد زیر را در ترمینال وارد کنید
+# 》[jijitg](https://telegram.me/Mohammadrezajiji)
+#  و به ماستاره بدین star تو بالای همین صفحه بزنید رو
+# ♡=☆
 
+# برای نصب سورس کد زیر را در ترمینال وارد کنید
+```
 sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/mohammadrezajijitg/jijitg.git -b supergroups && cd jijitg && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+```
 # دقت کنید که کل کد رو وارد کنید
 
 # سپس شماره خود را با پیش شماره وارد کنید
@@ -9,12 +14,12 @@ sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgr
 # سپس خود و خود ربات رو تو سرور سودو کنید
 
 # به سرور کانکت بشین و برین تو پوشه دیتا و فایل کانفیگ و ایدی عددی خود رو بزارید تو فایل کانفیگ
-
+```
   sudo_users = {
     267785153,
 YourID
   }
-
+```
 # کسایی که سرورشون پولیه قسمت 1
 # و کسایی که سرورشون رایگانه(مثل سی 9)قسمت 2 رو انجام بدن
 
@@ -24,7 +29,7 @@ YourID
 # برای نصب اتولانچ اگه رباتتون رو یوزر اصلی یا روته قسمت (الف) و اگه رو یوزری بجز روته قسمت (ب) رو انجام بدین
 
 # الف)این کدهارو توی ترمینال بترتیب بزنید《
-
+```
 cd jijitg
 
 sed -i "s/root/$(whoami)/g" etc/pika.conf
@@ -41,7 +46,7 @@ sudo start pika
 
 screen ./pika
 
-
+```
 # etc ب)وارد سرور بشید،برین تو پوشه《
 # pika.confروی فایل 
 # کلیک کنید خب حالا باید ادیتش کنید
@@ -50,6 +55,7 @@ screen ./pika
 # بجای روت اسم یوزر خودتونو بنویسید ینی اینجوری
 # setuid emsuserton
 # خب حالا سیو کنیدو برین به ترمینال و این دستوراتو بزنین
+```
 cd jijitg
 
 sed -i "s/username/$(whoami)/g" etc/pika.conf
@@ -69,10 +75,11 @@ nohup ./pika &>/dev/null &
 sudo start pika
 
 screen ./pika
-
+```
 # خب تموم شد و ربات شما با این سورس ران شد
 
 # اگه رباتتون اف شد برین تو ترمینال و این دستوراتو بزنین
+```
 cd jijitg
 
 killall screen
@@ -83,20 +90,22 @@ sudo killall
 
 screen ./pika
  
-
+```
 # 》2)
 # تو ترمینال این دستورات رو وارد کنید
+```
 cd jijitg
 
 screen ./launch.sh
-
+```
 # و اگه ربات اف شد
+```
 cd jijitg
 
 killall screen
 
 screen ./launch.sh
-
+```
 # اگه در هر صورت در نصب اتولانچ با روش 1 به مشکل خوردین راه دوم رو برین
 
 
