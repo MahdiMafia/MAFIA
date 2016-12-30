@@ -1,5 +1,5 @@
 do
---@sudo_tm
+--@TIM_MAFIA
 -- Returns true if is not empty
 local function has_usage_data(dict)
   if (dict.patterns == nil or dict.patterns == '') then
@@ -36,7 +36,7 @@ local function telegram_help()
   text = text..'\n'..'Or "!patterns all" to show all info.'
   return text
 end
--- @sudo_tm
+-- @TIM_MAFIA
 -- !help all command
 local function help_all()
   local ret = ""
@@ -71,4 +71,4 @@ return {
 
 end
 
--- @sudo_tm
+-- @TIM_MAFIA
