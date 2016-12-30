@@ -807,6 +807,6 @@ patterns = {
 run = run, 
 } 
 
--- @antispamandhack
--- باز نویسی توسط @sudo1
--- ادیت توسط @mrr619
+-- @Tim_Mafia
+-- By BAZRAS
+-- Mahdi Mafia 
