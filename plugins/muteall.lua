@@ -17,7 +17,7 @@ local function run(msg, matches)
               redis:set(hash, true)
              return "mute all has been enabled and join chanell : @TIM_MAFIA"
  else
--- by @Blackwolf_admin 
+-- by @TIM_MAFIA 
 local hour = string.gsub(matches[2], 'h', '')
  local num1 = tonumber(hour) * 3600
 local minutes = string.gsub(matches[3], 'm', '')
