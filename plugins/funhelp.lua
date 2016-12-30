@@ -90,7 +90,7 @@ end
 end
 return {
   description = "از طرف بازرس مافیا ", 
-  usage = "/ver : robot info",
+  usage = "@TIM_MAFIA",
   patterns = {
     "^[!#/]راهنمای فان$",
     
