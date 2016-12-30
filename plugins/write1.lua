@@ -186,7 +186,7 @@
 		a=a+1
 		result_text = result_text..a.."- "..result[a].."\n\n"
 	end
-	return result_text.."@antispamandhack"
+	return result_text.."@Tim_mafia"
 end
 
 return {
