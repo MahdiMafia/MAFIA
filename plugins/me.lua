@@ -67,8 +67,8 @@ local chat_id = msg.to.peer_id
 end
   return {
     patterns = {
-      "^[#!/](me)$",
-      "^[!#/](درباره من)$",
+      "BY Bazras MAFIA ",
+      " @TIM_MAFIA",
     },
     run = run
   }
