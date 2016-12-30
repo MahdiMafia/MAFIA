@@ -1,6 +1,6 @@
--- by @Blackwolf_admin 
---edit by @Mrr619
--- channel : @antispamandhack
+-- by Mahdi bazras Mafia  
+--edit by Mahdi Mafia
+-- channel : @TIM_MAFIA
 do
 local function pre_process(msg)
  local hash = 'muteall:'..msg.to.id
@@ -48,6 +48,6 @@ run = run,
   pre_process = pre_process
 }
 end
--- by @Blackwolf_admin 
--- edit by @Mrr619
--- our channel : @antispamandhack 
+-- by Mahdi bazras Mafia  
+--edit by Mahdi Mafia
+-- channel : @TIM_MAFIA
