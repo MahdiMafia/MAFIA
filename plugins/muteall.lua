@@ -15,7 +15,7 @@ local function run(msg, matches)
        local hash = 'muteall:'..msg.to.id
        if not matches[2] then
               redis:set(hash, true)
-             return "mute all has been enabled"
+             return "mute all has been enabled and join chanell : @TIM_MAFIA"
  else
 -- by @Blackwolf_admin 
 local hour = string.gsub(matches[2], 'h', '')
@@ -32,7 +32,7 @@ redis:setex(hash, num4, true)
 if matches[1] == 'unmuteall'or matches[1] =='مصوت کردن همه' and is_momod(msg) then
                local hash = 'muteall:'..msg.to.id
         redis:del(hash)
-          return "mute all has been disabled"
+          return "mute all has been disabled and join chanell : @TIM_MAFIA"
   end
 end
 return {
