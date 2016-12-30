@@ -1,8 +1,8 @@
 --[[
 
-        @cruel نویسنده
-		@cruel_channel
-		@gpmod
+        mahdi BAZRAS MAFIA نویسنده
+		@TIM_MAFIA
+		@TIM_MAFIA
 
 
 
@@ -43,9 +43,9 @@ end
 
 --[[
 
-        @cruel نویسنده
-		@cruel_channel
-		@gpmod
+        mahdi BAZRAS MAFIA نویسنده
+		@TIM_MAFIA
+		@TIM_MAFIA
 
 
 
