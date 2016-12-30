@@ -1,11 +1,11 @@
 --[[
 
      **************************
-     *  BlackPlus Plugins...  *
+     *      Tim Mafia         *
      *                        *
-     *     By @MehdiHS        *
+     * By Mahdi bazras mafia  *
      *                        *
-     *  Channel > @Black_Ch   *
+     *  Channel > @TIM_MAFIA  *
      **************************
 	 
 ]]
@@ -556,15 +556,14 @@ return {
 	patterns = {},
 	pre_process = pre_process
 }
-
 --[[
 
      **************************
-     *  BlackPlus Plugins...  *
+     *      Tim Mafia         *
      *                        *
-     *     By @MehdiHS        *
+     * By Mahdi bazras mafia  *
      *                        *
-     *  Channel > @Black_Ch   *
+     *  Channel > @TIM_MAFIA  *
      **************************
 	 
 ]]
