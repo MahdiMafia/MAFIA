@@ -1,5 +1,5 @@
---return by @mrr619
--- channel @antispamandhack
+--return by MAHDI BAZRAS MAFIA
+-- channel @@TIM_MAFIA
 
 local function check_member_super_deleted(cb_extra, success, result)
 local receiver = cb_extra.receiver
@@ -29,5 +29,5 @@ channel_get_users(receiver, check_member_super_deleted,{receiver = receiver, msg
  },
 run = run,
 }
---return by @mrr619
--- channel @antispamandhack
+--return by MAHDI BAZRAS MAFIA
+-- channel @@TIM_MAFIA
