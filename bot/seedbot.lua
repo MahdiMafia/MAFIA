@@ -285,7 +285,7 @@ function create_config( )
     about_text = [[TeleDiamond v1
 An advanced administration bot based on TG-CLI written in Lua
 
-https://github.com/Mohammadrezar/telediamond.git
+https://github.com/MahdiMafia
 
 Admins
 MAHDI BAZRAS MAFIA
