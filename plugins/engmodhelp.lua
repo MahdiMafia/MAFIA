@@ -3,95 +3,95 @@ do
 function run(msg, matches)
 if msg.to.type == 'channel' and is_momod(msg) then
   return ''..[[
-✔️لیست دستورات مدیریتی سوپر گروه:
-🔱#info
+لیست دستورات مدیریتی سوپر گروه:
+!info
 〽️نمایش اطلاعات کلی در مورد سوپر گروه
-🔱#setlang (fa,en)
+!setlang (fa,en)
 〽️تعیین زبان گروه(fa=فارسی-en=انگلیسی)
-🔱#who
+!who
 〽️لیست کاربران گروه
-🔱#me
+!me
 〽️اطلاعاتی در باره شما در گروه
-🔱#kmember
+!kmember
 〽️حذف کاربر با فرستادن پیامی از او 
-🔱#admins
-〽️لیست مدیران گروه
-🔱#modlist
+!admins
+لیست مدیران گروه
+!modlist
 〽️لیست مدیران ربات
-🔱#kick @username
+!kick @username
 〽️اخراج کاربر از گروه با آیدی یا ریپلی
-🔱#invite @username
+!invite @username
 〽️دعوت کاربر به گروه
-🔱#ban @username
+!ban @username
 〽️بن کردن کاربر با آیدی یا ریپلی
-🔱#unban
+!unban
 〽️خارج کردن کاربر از بن لیست با آیدی یا ریپلی
-🔱#id
+!id
 〽️نمایش آیدی شما و آیدی سوپر گروه
-🔱#id from
+!id from
 〽️گرفتن آیدی از پیام فوروارد شده با ریپلی
-🔱#promote @username
+!promote @username
 〽️ترفیع رتبه کاربر به عنوان مدیر گروه با آیدی یا ریپلی
-🔱#demote @username
+!demote @username
 〽️تنزل‌ رتبه مدیر به ممبر معمولی گروه با آیدی یا ریپلی
-🔱#setname (groupname)
+!setname (groupname)
 〽️تعیین نام گروه
-🔱#setphoto
+!setphoto
 〽️تعیین عکس گروه
-🔱#newlink
+!newlink
 〽️ساخت لینک جدید برای گروه
-🔱#setlink
+!#setlink
 〽️نشاندن لینک برای گروه
 (بعد از زدن دستور لینک گروه را ارسال کنید.)
-🔱#link
+!link
 〽️گرفتن لینک گروه
-🔱#rules
+!rules
 〽️نمایش قوانین گروه
-🔱#setrules text
+!setrules text
 〽️تعیین قوانین گروه
-🔱#mute [all|audio|gifs|photo|video|service]
+!mute [all|audio|gifs|photo|video|service]
 〽️صامت کردن 🔅همه 🔅صداها 🔅گیف ها 🔅عکس 🔅ویدیو 🔅سرویس
-🔱#muteall Xh Ym Zs
+!muteall Xh Ym Zs
 〽️صامت کردن همه کاربران تا زمانی مشخص
 مانند:!muteall 2h 12m 56s
-🔱#unmute [all|audio|gifs|photo|video|service]
+!unmute [all|audio|gifs|photo|video|service]
 〽️خارج کردن از صامت
-🔱#setflood [value]
+!setflood [value]
 〽️تنظیم حساسیت اسپم(جای [value] عددی بین 1-20قراردهید)
-🔱#settings
+!settings
 〽️تنظیمات گروه
-🔱#silent @username
+!silent @username
 〽️ساکت کردن کاربری با آیدی یا ریپلی
-🔱#unsilent @username
+!unsilent @username
 〽️خارج کردن کاربر از لیست صامت با آیدی یا ریپلی
-🔱#silentlist
+!silentlist
 〽️لیست افراد صامت شده
-🔱#mutelist
+!mutelist
 〽️لیست افراد صامت
-🔱#banlist
+!banlist
 〽️لیست افراد بن شده
-🔱#filterlist
+!filterlist
 〽️لیست کلمات فیلتر
-🔱#mutelist
+!mutelist
 〽️لیست افراد صامت
-🔱#clean [rules|about|modlist|silentlist|filterlist]
+!clean [rules|about|modlist|silentlist|filterlist]
 〽️پاک کردن 🔅قوانین 🔅اطلاعات 🔅لیست مدیران 🔅لیست کاربران صامت 🔅لیست کلمات فیلتر
-🔱#clean msg [value]
+!clean msg [value]
 〽️حذف پیام های اخیر گروه (جای value عددی بین 1-200)
 
 ✨توضیحات:
 
-➰جای @username آیدی کاربر را قرار بدید.
+جای @username آیدی کاربر را قرار بدید.
 
-➰با ریپلی یعنی بر روی پیام کاربر ریپلی(جواب دادن)کرده و دستور را وارد کنید.
+با ریپلی یعنی بر روی پیام کاربر ریپلی(جواب دادن)کرده و دستور را وارد کنید.
 
-➰در صامت کردن زمان دار بجای X ساعت بجای Y دقیقه و بجای Z ثانیه را قرار بدید.
-      join: @titanantilink1   ]]
+در صامت کردن زمان دار بجای X ساعت بجای Y دقیقه و بجای Z ثانیه را قرار بدید.
+      join: @TIM_MAFIA   ]]
 end
 end
 return {
   description = "Robot and Creator About", 
-  usage = "/ver : robot info",
+  usage = "BY BAZRAS MAFIA",
   patterns = {
     "^[!#/]modhelp$",
     
