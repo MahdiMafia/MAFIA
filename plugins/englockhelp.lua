@@ -4,54 +4,54 @@ function run(msg, matches)
 if msg.to.type == 'channel' and is_momod(msg) then
   return ''..[[
 ✔️لیست دستورات قفلی سوپر گروه:
-🔱#lock text 
-🔱#unlock text
-1)✖️links
-2)✖️flood
-3)✖️spam
-4)✖️Arabic
-5)✖️member
-6)✖️rtl
-7)✖️sticker
-8)✖️contacts
-9)✖️strict
-10)✖️tag
-11)✖️username
-12)✖️fwd
-13)✖️reply
-14)✖️fosh
-15)✖️tgservice
-16)✖️leave
-17)✖️join
-18)✖️emoji
-19)✖️english
-20)✖️media
-21)✖️operator
-22)✖️bots
-〽️قفل کردن
+#lock text 
+#unlock text
+1links
+2)flood
+3)spam
+4)Arabic
+5)member
+6)rtl
+7)sticker
+8)contacts
+9)strict
+10)tag
+11)username
+12)fwd
+13)reply
+14)fosh
+15)tgservice
+16)leave
+17)join
+18)emoji
+19)english
+20)media
+21)operator
+22)bots
+قفل کردن
 〽️باز کردن قفل
-1)✖️لینک
-2)✖️پی ام تکراری
-3)✖️اسپم
-4)✖️عربی
-5)✖️عضو
-6)✖️اسم های بلند
-7)✖️استیکر
-8)✖️مخاطب ها
-9)✖️سخت گیری
-10)✖️تگ
-11)✖️آیدی (@username)
-12)✖️فوروراد
-13)✖️ریپلی
-14)✖️فوش
-15)✖️نمایش ورود و خروج
-16)✖️ترک کردن گروه
-17)✖️ورود به گروه
-18)✖️شکلک
-19)✖️انگلیسی
-20)✖️رسانه(عکس و فیلم و...)
-21)✖️اپراتور(تبلیغ شارژ رایگان)
-22)✖️ربات ها
+1)لینک
+2)پی ام تکراری
+3)اسپم
+4)عربی
+5)عضو
+6)اسم های بلند
+7)استیکر
+8)مخاطب ها
+9)سخت گیری
+10تگ
+11)آیدی (@username)
+12)فوروراد
+13)ریپلی
+14)فوش
+15)نمایش ورود و خروج
+16)ترک کردن گروه
+17)ورود به گروه
+18)شکلک
+19)انگلیسی
+20)رسانه(عکس و فیلم و...)
+21)اپراتور(تبلیغ شارژ رایگان)
+22)ربات ها
 
 🌟بجای text گزینه مورد نظرتان را قرار بدین(گزینه های انگلیسی)
  با قفل هر کدام انجام یا فرستادن آن در گروه ممنوع میشود.
@@ -67,12 +67,13 @@ if msg.to.type == 'channel' and is_momod(msg) then
 
 ➰قفل سخت گیری:در صورتی که یکی از گزینه های بالا قفل باشد کاربر با انجام آن خودکار حذف میشود.
 مثلا وقتی لینک قفل باشد درصورتی که کاربر لینک ارسال کند هم لینک و هم کاربر در صورت قفل بودن سخت گیری حذف خواهند شد.
-join: @titanantilink1  ]]
+      نوشته شده توسط مهدی بازرس مافیا
+join: @TIM_MAFIA  ]]
 end
 end
 return {
-  description = "Robot and Creator About", 
-  usage = "/ver : robot info",
+  description = "@TIM_MAFIA", 
+  usage = "BY BAZRAS MAFIA ",
   patterns = {
     "^[!#/]lockhelp$",
     
