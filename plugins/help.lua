@@ -34,8 +34,8 @@ Join us:
 end
 end
 return {
-  description = "Robot and Creator About", 
-  usage = "/ver : robot info",
+  description = "By Bazras MAFIA", 
+  usage = "@TIM_mafia",
   patterns = {
     "^[!#/]راهنما$",
     "^[!#/]help$",
