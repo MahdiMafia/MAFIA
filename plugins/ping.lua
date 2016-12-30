@@ -21,8 +21,8 @@ return {
 --[[
 #
 #
-#                 @Hell_Bot_channel
+#                 @TIM_MAFIA
 #               
-#                  @H_e_ll_B_O_Y
+#                  MAHDI BAZRAS MAFIA
 #
 ]]
