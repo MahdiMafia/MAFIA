@@ -68,7 +68,7 @@ end
   return {
     patterns = {
       "BY Bazras MAFIA ",
-      " @TIM_MAFIA",
+      " @TIM_MAFIA .",
     },
     run = run
   }
