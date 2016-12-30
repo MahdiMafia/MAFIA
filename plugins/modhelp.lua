@@ -133,10 +133,10 @@ if msg.to.type == 'channel' and is_momod(msg) then
 end
 end
 return {
-  description = "Robot and Creator About", 
-  usage = "/ver : robot info",
+  description = "Mahdi Mafia", 
+  usage = "@Tim_Mafia",
   patterns = {
-    "^[!#/]راهنمای مدیریتی$",
+    "By Mahdi Bazras Mafia",
     
   }, 
   run = run 
