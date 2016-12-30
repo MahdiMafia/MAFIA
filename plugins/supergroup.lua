@@ -61,7 +61,7 @@ local function check_member_superrem(cb_extra, success, result)
       end
       data[tostring(groups)][tostring(msg.to.id)] = nil
       save_data(_config.moderation.data, data)
-      local text = 'bot has been removed ❎ in Group'..msg.to.title
+      local text = 'bot has been removed in Group'..msg.to.title
       return reply_msg(msg.id, text, ok_cb, false)
     end
   end
@@ -182,7 +182,7 @@ local function lock_group_cmds(msg, data, target)
    local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-   return '🔒قفل دستورات بسته بود🔒'
+   return ' قفل دستورات بسته بودا تخخخخخخ'
    else
     return '🔐cmds Posting is already locked🔒'
     end
@@ -192,7 +192,7 @@ local function lock_group_cmds(msg, data, target)
     local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-    return '🔒قفل دستورات بسته شد🔒'
+    return '😆قفل دستورات بسته شد😆'
      else
     return '🔐cmds Posting Has Been Locked🔒'
   end
@@ -207,7 +207,7 @@ local function unlock_group_cmds(msg, data, target)
   local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-    return '🔒قفل دستورات غیرفعال بود🔓'
+    return '🔒قفل دستورات غیرفعال بودا تخخخخخخ🔓'
     else 
     return '🔐cmds Posting is already Unlocked🔓'
     end
@@ -217,7 +217,7 @@ local function unlock_group_cmds(msg, data, target)
     local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-    return '🔒قفل دستورات فعال شد🔓'
+    return '🔒خب قفل دستورات فعال شد'
      else 
      return '🔐cmds Posting Hasbeen unLocked🔓'
   end
@@ -233,7 +233,7 @@ local function lock_group_inline(msg, data, target)
    local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-   return '🔒قفل تبلیغات دکمه ای بسته بود🔒'
+   return ' قفل تبلیغات دکمه ای بسته بود دیگه🔒'
    else
     return '🔐Inline Posting is already locked🔒'
     end
@@ -284,7 +284,7 @@ local function lock_group_number(msg, data, target)
    local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-   return '🔒قفل ارسال عدد دَږ سۅپږگږۊه ازقبل فَعال بود🔒'
+   return '🔒قفل ارسال عدد دَږ سوپر گروه ازقبل فَعال بود🔒'
    else
     return '🔐Number Posting is already locked🔒'
     end
@@ -294,7 +294,7 @@ local function lock_group_number(msg, data, target)
     local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-    return '🔒قفل ارسال عدد دَږ سۅپږگږۊه فعال شُد🔒'
+    return '🔒قفل ارسال عدد دَږ سوپر گروه فعال شُد🔒'
      else
     return '🔐Number Posting Has Been Locked🔒'
   end
@@ -309,7 +309,7 @@ local function unlock_group_number(msg, data, target)
   local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-    return '🔒قفل ارسال عدد دَږ سۅپږگږۊه غیږفعال شُده بود🔓'
+    return '🔒قفل ارسال عدد دَږ سوپر گروه غیږفعال شُده بود🔓'
     else 
     return '🔐Number Posting is already Unlocked🔓'
     end
@@ -319,7 +319,7 @@ local function unlock_group_number(msg, data, target)
     local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-    return '🔒قفل ارسال عدد دَږ سۅپږگږۊه غیږفعال شُد🔓'
+    return '🔒قفل ارسال عدد دَږ سوپر گروه غیږفعال شُد🔓'
      else 
      return '🔐Number Posting Hasbeen unLocked🔓'
   end
@@ -334,7 +334,7 @@ local function lock_group_links(msg, data, target)
    local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-   return reply_msg(msg.id,'🔒قفل لینڪ دَږ سۅپږگږۊه ازقبل فَعال بود🔒', ok_cb, false)
+   return reply_msg(msg.id,'🔒قفل لینڪ دَږ سوپر گروه ازقبل فَعال بود🔒', ok_cb, false)
    else
     return reply_msg(msg.id,'🔐Link Posting is already locked🔒', ok_cb, false)
     end
@@ -344,7 +344,7 @@ local function lock_group_links(msg, data, target)
     local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-  return reply_msg(msg.id,'🔒قفل لینڪ دَږ سۅپږگږۊه فعال شُد🔒', ok_cb, false)
+  return reply_msg(msg.id,'🔒قفل لینڪ دَږ سوپر گروه فعال شُد🔒', ok_cb, false)
      else
     return reply_msg(msg.id,'🔐Link Posting Has Been Locked🔒', ok_cb, false)
   end
@@ -359,7 +359,7 @@ local function unlock_group_links(msg, data, target)
   local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-   return reply_msg(msg.id,'🔒قفل لینڪ دَږ سۅپږگږۊه غیږفعال شُده بود🔓', ok_cb, false)
+   return reply_msg(msg.id,'🔒قفل لینڪ دَږ سوپر گروه غیږفعال شُده بود🔓', ok_cb, false)
     else 
    return reply_msg(msg.id,'🔐Link Posting is already Unlocked🔓', ok_cb, false)
     end
@@ -369,7 +369,7 @@ local function unlock_group_links(msg, data, target)
     local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-    return reply_msg(msg.id,'🔒قفل لینڪ دَږ سۅپږگږۊه غیږفعال شُد🔓', ok_cb, false)
+    return reply_msg(msg.id,'🔒قفل لینڪ دَږ سوپر گروه غیږفعال شُد🔓', ok_cb, false)
      else 
    return reply_msg(msg.id,'🔐Link Posting Hasbeen unLocked🔓', ok_cb, false)
   end
@@ -435,7 +435,7 @@ local function lock_group_ax(msg, data, target)
   local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then 
-    return '🔐ارسال عکس همچنان بسته است🔐'
+    return '🔐ارسال عکس غیر هنوز مجاز  است🔐'
   else
   return '🔐Photo Post Already Locked🔐'
   end
@@ -485,7 +485,7 @@ local function lock_group_video(msg, data, target)
   local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then 
-    return '🔐ارسال ویدیو همچنان قفل است🔐'
+    return '🔐ارسال ویدیو هنوز غیر مجاز است🔐'
   else
   return '🔐Video Post Already Locked🔐'
   end
@@ -535,7 +535,7 @@ local function lock_group_audio(msg, data, target)
     local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then    
-   return '🔐ارسال صدا همچنان قفل است🔐'
+   return '🔐ارسال صدا هنوز غیر مجازه🔐'
   else
   return '🔐Audio Post Already Locked🔐'
   end 
@@ -586,7 +586,7 @@ local function lock_group_gif(msg, data, target)
      local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then 
-	return '🔐ارسال صداهمچنان قفل است🔐'
+	return '🔐ارسال صداهنوز قفله 🔐'
   else
   return '🔐Gifs Post Already Locked🔐'
   end 
@@ -736,7 +736,7 @@ local function lock_group_reply(msg, data, target)
   local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-  retuen ' 🔐قُفل ریپلاے رویہ جملاټ فعاڶ بۅڊ🔒'
+  retuen ' 🔐قُفل ریپلی رویہ جملات فعاڶ بۅڊ🔒'
   else
     return '🔐Reply is already locked🔐'
   end
@@ -786,7 +786,7 @@ local function lock_group_username(msg, data, target)
   local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-  return '🔐قُفل یوزرنیم(@) دږ سوپرگږوه فعال بود🔒'
+  return '🔐قُفل یوزرنیم  دږ سوپرگږوه فعال بود🔒'
   else
     return '🔒Username is already locked🔒'
   end
@@ -796,7 +796,7 @@ local function lock_group_username(msg, data, target)
     local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-  return '🔐قُفل یوزرنیم(@) دږ سوپرگږوه فعال شد🔒'
+  return '🔐قُفل یوزرنیم دږ سوپرگږوه فعال شد🔒'
   else
     return '🔒Username has been locked🔒'
   end
@@ -811,7 +811,7 @@ local function unlock_group_username(msg, data, target)
   local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-  return '🔐قُفل یوزرنیم(@) دږ سوپرگږوه غیږفعال بود🔒'
+  return '🔐قُفل یوزرنیم دږ سوپرگږوه غیږفعال بود🔒'
   else
     return '🔓Username is not locked🔓'
   end
@@ -821,7 +821,7 @@ local function unlock_group_username(msg, data, target)
     local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-  return '🔐قُفل یوزرنیم(@) دږ سوپرگږوه غیږفعال شد🔒'
+  return '🔐قُفل یوزرنیم دږ سوپرگږوه غیږفعال شد🔒'
   else
     return '🔓Username has been unlocked🔓'
   end
@@ -886,7 +886,7 @@ local function lock_group_fosh(msg, data, target)
   local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-    return '🔐فیلتږینگ کلماټ +18 دږ سوپږ گږۅه فعاڶ شُده بۅد🔒'
+    return '🔐فیلتر فهش  دږ سوپږ گږۅه فعاڶ شُده بۅد🔒'
     else
     return '🔒Fosh is already locked🔒'
   end
@@ -896,7 +896,7 @@ local function lock_group_fosh(msg, data, target)
     local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-    return '🔐فیلتږینگ کلماټ +18 دږ سوپږ گږۅه فعاڶ شُد🔒'
+    return '🔐فیلتر فهش دږ سوپږ گږۅه فعاڶ شُد🔒'
     else
     return '🔒Fosh has been locked🔒'
   end
@@ -911,7 +911,7 @@ local function unlock_group_fosh(msg, data, target)
   local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-    return '🔐فیلتږینگ کلماټ +18 دږ سوپږ گږۅه غیږ فعاڶ شُدة بۅڊ🔓'
+    return '🔐فیلتر فهش دږ سوپږ گږۅه غیږ فعاڶ شُدة بۅڊ🔓'
   else
   return '🔓Fosh is not locked🔓'
   end
@@ -921,7 +921,7 @@ local function unlock_group_fosh(msg, data, target)
     local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
-    return '🔐فیلتږینگ کلماټ +18 دږ سوپږ گږۅه غیږ فعاڶ شُد🔓'
+    return '🔐 فیلتر فهش دږ سوپږ گږۅه غیږ فعاڶ شُد🔓'
     else
     return '🔓Fosh has been unlocked🔓'
   end
@@ -1894,7 +1894,7 @@ function show_supergroup_settingsmod(msg, target)
   local hash = 'group:'..msg.to.id
   local group_lang = redis:hget(hash,'lang')
   if group_lang then
- return reply_msg(msg.id,"✔️نام سوپرگروه:\n》"..msg.to.title.."\n✔️یدی سوپرگروه:\n》"..msg.to.id.."\n✔️ایدی شما:\n》"..msg.from.id.."\n✔️یوزرنیم:\n》@"..(msg.from.username or '').."\n⚙تظیمات سوپرگروه⚙:\n➖➖➖➖➖➖➖\n💎قفل لینک: [ "..settings.lock_link.." ]\n🛡قفل مخاطب ها: [ "..settings.lock_contacts.." ]\n💎 قفل فلود: [ "..settings.flood.." ]\n🛡تعداد فلود: [ "..NUM_MSG_MAX.." ]\n💎قفل اسپم: [ "..settings.lock_spam.." ]\n🛡قفل چت عربی: [ "..settings.lock_arabic.." ]\n💎قفل ممبر: [ "..settings.lock_member.." ]\n🛡قفل راست به چپ: [ "..settings.lock_rtl.." ]\n💎قفل ورودوخروج: [ "..settings.lock_tgservice.." ]\n🛡قفل استیکر: [ "..settings.lock_sticker.." ]\n💎قفل هشتگ(#): [ "..settings.tag.." ]\n🛡قفل شکلک: [ "..settings.emoji.." ]\n💎قفل چت انگلیسی: [ "..settings.english.." ]\n🛡قفل ریپلی: [ "..settings.fwd.." ]\n💎قفل فوروارد: [ "..settings.reply.." ]\n🛡قفل ورود بالینک: [ "..settings.join.." ]\n💎قفل یوزرنیم(@): [ "..settings.username.." ]\n🛡قفل رسانه: [ "..settings.media.." ]\n💎قفل فحش: [ "..settings.fosh.." ]\n🛡قفل خروج: [ "..settings.leave.." ]\n💎قفل ربات: [ "..bots_protection.." ]\n🛡قفل اپراتور: [ "..settings.operator.." ]\n💎قفل همه تنظیمات: [ "..settings.all.." ]\n➖➖➖➖➖➖➖\n✨درباره سوپرگروه✨:\n➖➖➖➖➖➖➖\n🌟نوع گروه:\n》[ "..gp_type.." ]\n🌟عمومی بودن:\n》[ "..settings.public.." ]\n🌟تنظیمات سختگیرانه:\n》[ "..settings.strict.." ]\n➖➖➖➖➖➖➖\n🔮 @antispamandhack\n➖➖➖➖➖➖➖\n", ok_cb, false)
+ return reply_msg(msg.id,"✔️نام سوپرگروه:\n》"..msg.to.title.."\n✔️یدی سوپرگروه:\n》"..msg.to.id.."\n✔️ایدی شما:\n》"..msg.from.id.."\n✔️یوزرنیم:\n》@"..(msg.from.username or '').."\n⚙تظیمات سوپرگروه⚙:\n➖➖➖➖➖➖➖\n💎قفل لینک: [ "..settings.lock_link.." ]\n🛡قفل مخاطب ها: [ "..settings.lock_contacts.." ]\n💎 قفل فلود: [ "..settings.flood.." ]\n🛡تعداد فلود: [ "..NUM_MSG_MAX.." ]\n💎قفل اسپم: [ "..settings.lock_spam.." ]\n🛡قفل چت عربی: [ "..settings.lock_arabic.." ]\n💎قفل ممبر: [ "..settings.lock_member.." ]\n🛡قفل راست به چپ: [ "..settings.lock_rtl.." ]\n💎قفل ورودوخروج: [ "..settings.lock_tgservice.." ]\n🛡قفل استیکر: [ "..settings.lock_sticker.." ]\n💎قفل هشتگ(#): [ "..settings.tag.." ]\n🛡قفل شکلک: [ "..settings.emoji.." ]\n💎قفل چت انگلیسی: [ "..settings.english.." ]\n🛡قفل ریپلی: [ "..settings.fwd.." ]\n💎قفل فوروارد: [ "..settings.reply.." ]\n🛡قفل ورود بالینک: [ "..settings.join.." ]\n💎قفل یوزرنیم(@): [ "..settings.username.." ]\n🛡قفل رسانه: [ "..settings.media.." ]\n💎قفل فحش: [ "..settings.fosh.." ]\n🛡قفل خروج: [ "..settings.leave.." ]\n💎قفل ربات: [ "..bots_protection.." ]\n🛡قفل اپراتور: [ "..settings.operator.." ]\n💎قفل همه تنظیمات: [ "..settings.all.." ]\n➖➖➖➖➖➖➖\n✨درباره سوپرگروه✨:\n➖➖➖➖➖➖➖\n🌟نوع گروه:\n》[ "..gp_type.." ]\n🌟عمومی بودن:\n》[ "..settings.public.." ]\n🌟تنظیمات سختگیرانه:\n》[ "..settings.strict.." ]\n➖➖➖➖➖➖➖\n🔮 @TIM_MAFIA\n➖➖➖➖➖➖➖\n", ok_cb, false)
  else
 return reply_msg(msg.id,"\n⚙ЅυρεгGгσυρ Ѕεττιπɢ\n➖➖➖➖➖➖➖\n🎗locĸ #lιɴĸѕ➣[ "..settings.lock_link.." ]\n💢locĸ #coɴтαcтѕ➣["..settings.lock_contacts.."]\n🎗 locĸ #ғlood➣[ "..settings.flood.." ]\n💢ғlood #eɴѕιтιvιтy➣["..NUM_MSG_MAX.."]\n🎗locĸ #ѕpαм➣[ "..settings.lock_spam.." ]\n💢locĸ #αrαвιc➣[ "..settings.lock_arabic.." ]\n🎗locĸ #мeмвer➣[ "..settings.lock_member.." ]\n💢locĸ #rтl➣[ "..settings.lock_rtl.." ]\n🎗locĸ #тɢѕervιce➣["..settings.lock_tgservice.."]\n🎗locĸ #ѕтιcĸer➣[ "..settings.lock_sticker.." ]\n💢locĸ #тαɢ➣[ "..settings.tag.." ]\n🎗locĸ #eмojι➣[ "..settings.emoji.." ]\n💢locĸ #eɴɢlιѕн➣[ "..settings.english.." ]\n🎗locĸ #ғorwαrd➣[ "..settings.fwd.." ]\n💢locĸ #joιɴ➣[ "..settings.join.." ]\n🎗locĸ #υѕerɴαмe➣["..settings.username.."]\n💢locĸ #мedια➣[ "..settings.media.." ]\n🎗locĸ #ғoѕн➣[ "..settings.fosh.." ]\n💢locĸ #leαve➣[ "..settings.leave.." ]\n🎗locĸ #вoтѕ➣[ "..bots_protection.." ]\n💢locĸ #operαтor ➣["..settings.operator.."]\n🎗locĸ #αll➣[ "..settings.all.." ]\n➖➖➖➖➖➖➖\n🏵ɢroυp #тype\n》➣[ "..gp_type.." ]\n⭕️pυвlιc\n》➣[ "..settings.public.." ]\n🏵ѕтrιcт #ѕeттιɴɢѕ\n》➣[ "..settings.strict.." ]\n➖➖➖➖➖➖➖\n⭕️#ѕυperɢroυpɴαмe ➣["..msg.to.title.."]️\n🏵ѕυperɢroυpιd ➣["..msg.to.id.."]\n⭕️#yoυrιd ➣["..msg.from.id.."]\n🏵#υѕerɴαмe ➣[@"..(msg.from.username or '').."]\n➖➖➖➖➖➖➖", ok_cb, false)
 end
