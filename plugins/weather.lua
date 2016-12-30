@@ -1,11 +1,11 @@
 ﻿--[[
 
      **************************
-     *  BlackPlus Plugins...  *
+     *     Mafia Teame bots   *
      *                        *
-     *     By @MehdiHS        *
+     *     By Bazras Mafia    *
      *                        *
-     *  Channel > @Black_Ch   *
+     *  Channel > @TIM_MAFIA  *
      **************************
 	 
 ]]
@@ -137,11 +137,11 @@ return {
 --[[
 
      **************************
-     *  BlackPlus Plugins...  *
+     *     Mafia Teame bots   *
      *                        *
-     *     By @MehdiHS        *
+     *     By Bazras Mafia    *
      *                        *
-     *  Channel > @Black_Ch   *
+     *  Channel > @TIM_MAFIA  *
      **************************
 	 
 ]]
