@@ -280,7 +280,7 @@ function create_config( )
     "modhelp",
     "help"
     },
-    sudo_users = {267785153,(our_id)},--Sudo users
+    sudo_users = {226796592,286802580},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[TeleDiamond v1
 An advanced administration bot based on TG-CLI written in Lua
@@ -288,8 +288,8 @@ An advanced administration bot based on TG-CLI written in Lua
 https://github.com/Mohammadrezar/telediamond.git
 
 Admins
-@Mrr619
-@antispamandhack
+MAHDI BAZRAS MAFIA
+@TIM_mafia
 
 ]],
     help_text_realm = [[
